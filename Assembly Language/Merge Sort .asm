@@ -1,7 +1,3 @@
-#Kavya Goyal 
-#1901CS30
-#Lab 05 7th September 2021
-
 .data
 
 numberMsg:      .asciiz  "Enter the number of elements in the array: "
