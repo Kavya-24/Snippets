@@ -1,3 +1,15 @@
+[![](https://res.cloudinary.com/practicaldev/image/fetch/s--lEaECjBi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://pbs.twimg.com/media/FADp5-nVkA4Awgp.jpg )]
+
+[![](https://image.slidesharecdn.com/howtocontributetoopensource-160309031133/95/how-to-contribute-to-open-source-9-638.jpg?cb=1457493146)]
+
+
+
+
+
+
+
+
+
 # Snippets
 Hacktoberfest 2021
 
