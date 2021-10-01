@@ -1,5 +1,5 @@
 /**
- * Make sure to use ctx for fragmnet classes
+ * Make sure to use ctx for fragment classes
  */
 
 fun checkIsNetworkConnected(context: Context): Boolean {
