@@ -1,6 +1,22 @@
-[![](https://res.cloudinary.com/practicaldev/image/fetch/s--lEaECjBi--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://pbs.twimg.com/media/FADp5-nVkA4Awgp.jpg )]
-
 [![](https://image.slidesharecdn.com/howtocontributetoopensource-160309031133/95/how-to-contribute-to-open-source-9-638.jpg?cb=1457493146)]
+ ### - Do give a star if you liked this repo.
+ ### - Note - Your Project Must be valid.
+ 
+ # Steps To Generate PR(Pull Request)
+ # Fork this repository
+ #### Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+ # Clone the repository
+ #### git clone https://github.com/{your-github-username}/Hacktober-2020.git
+ # Create a branch
+ #### git checkout -b your_new_branch_name
+ # Add & commit
+ #### git add .
+ #### git commit -m "your-commit-message"
+# Push changes to GitHub
+#### git push origin <branch-name>
+
+
+
 
 
 
