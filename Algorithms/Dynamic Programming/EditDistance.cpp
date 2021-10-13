@@ -13,8 +13,10 @@ You have the following three operations permitted on a word:
 using namespace std;
 
 int minEditDistance(string word1, string word2) {
+  
         int m = word1.size(), n = word2.size();
         vector<vector<int>> dp(m + 1, vector<int>(n + 1, 0));
+
         for (int i = 1; i <= m; i++) {
             dp[i][0] = i;
         }
