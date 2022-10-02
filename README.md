@@ -800,11 +800,9 @@ Snippets
 
 </details>
 
-<h2 align="center"> Project Admin 👩‍💻</h2>
-
-<p align="center"><a href="https://github.com/Kavya-24" ><img align ="center" src="https://avatars.githubusercontent.com/u/54931749?v=4" width=150px height=150px /></a></p>      
+<h2> Project Admin: @Kavya-24💻</h2>
                                                                         
-<h2 align="center">✨ Special Thanks To Contributors ✨</h2>
+<h2 align="center">✨ Contributors ✨</h2>
 
 <p align="center">
  
