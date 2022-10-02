@@ -945,14 +945,11 @@ span{
 .footer{
 
     
+    display: flex;
     align-items: center;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 1fr  ;
+    justify-content: space-around;
     background: #17171a;
     color: gray;
-  
-
 
 }
 
@@ -964,7 +961,39 @@ span{
 
 
 }
+@media (max-width: 768px){
+  .footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    background: #17171a;
+    color: gray;
+  }
+  .aboutus, .contactus, .ourservices, .shop{
+    min-width: 50vw;
+  }
+  .ourservices{
+    padding-left: 3rem;
+  }
 
+}
+
+@media (max-width: 345px){
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    background: #17171a;
+    color: gray;
+  }
+  .aboutus, .contactus, .ourservices, .shop{
+    min-width: 50vw;
+  }
+  .contactus, .ourservices, .shop{
+    padding-left: 2rem;
+  }
+
+}
 
 .copy{
 
