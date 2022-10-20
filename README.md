@@ -634,13 +634,19 @@ Snippets
 │   │       Stack.c
 │   │       StockSpan.cpp
 │   │
-│   └───Tree
-│           AVL TREES.txt
-│           Check_balanced.cpp
-│           Left_view_print.cpp
-│           Level_order_traversal_line_by_line.cpp
-│           Max_Width_of_bt.cpp
-│           Print_Left_View.cpp
+│   ├───Tree
+│   │       AVL TREES.txt
+│   │       Check_balanced.cpp
+│   │       Left_view_print.cpp
+│   │       Level_order_traversal_line_by_line.cpp
+│   │       Max_Width_of_bt.cpp
+│   │       Print_Left_View.cpp
+│   │
+│   ├───HashMaps
+│           Longest subset zero sum.java
+│           pair sum to 0.java
+│           Extract Unique Characters.java
+│
 │
 ├───Kotlin Extensions
 │       Overview.txt
