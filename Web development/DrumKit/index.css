@@ -1,0 +1,70 @@
+body{
+
+    text-align: center;
+    background-image: url("drumKit.jpg");
+    
+    background-repeat: no-repeat;
+
+}
+h1{
+    font-size: 70px  ;
+    
+    
+
+
+}
+.w{
+    background-image: url("aa.jpg");
+
+}
+.a{
+    background-image: url("bb.jpg");
+ 
+}.s{
+    background-image: url("dd.jpg");
+    
+}.d{
+    background-image: url("ee.jpg");
+    
+}.j{
+    background-image: url("ff.jpg");
+   
+
+
+}.k{
+    background-image:url("wa.jpg") ;
+    
+}.l{
+    background-image: url("cc.jpg");
+    
+    
+}.all{
+    margin: 10% auto;
+}.animation{
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}.button{
+    position: relative;
+top:250px;
+left:10px;
+
+    background-color: white;
+    margin: 4px;
+    text-align: center;
+    height:100px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 4rem;
+    outline: none;
+    font-family:'Arvo',cursive;
+    
+    font-weight: 90;
+    border:5px  solid  #b43211;
+    color:#DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    padding: 8px 10px;
+
+
+
+}
