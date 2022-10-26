@@ -622,6 +622,7 @@ Snippets
 │   │
 │   ├───Recursion
 │   │       generating_subset_string.cpp
+│   │       Return Keypad Code.java
 │   │       rope_cutting.cpp
 │   │       tower_of_hanoi.cpp
 │   │
@@ -642,10 +643,11 @@ Snippets
 │   │       Max_Width_of_bt.cpp
 │   │       Print_Left_View.cpp
 │   │
-│   ├───HashMaps
-│           Longest subset zero sum.java
-│           pair sum to 0.java
+│   └───HashMaps
 │           Extract Unique Characters.java
+│           Longest subset zero sum.java
+│           Pairs with difference K.java
+│           pair sum to 0.java
 │
 │
 ├───Kotlin Extensions
