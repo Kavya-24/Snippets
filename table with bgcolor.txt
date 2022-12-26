@@ -1,0 +1,22 @@
+<html>
+<head>
+<h2>Table with bgcolor</h2>
+<table width="25%"border=`2`background=flower.jpg">
+<tr>  <th>Name<th/>
+<th> <Age<tr/>
+</tr>
+<tr>
+<td>Aman</td>
+<td>25</td>  
+</tr>
+<tr>
+<td>Raman</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Mohan</td>
+<td>45</td>
+</tr> 
+</table>
+</body>
+</html>
