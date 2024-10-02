@@ -24,12 +24,34 @@ jobs:
           fi
 
       - name: Generate project tree structure
-        run: ./project_tree_directory_util.sh > project_tree_structure.txt
+        run: tree > project_tree_structure.txt
+
+
+      - name: Update README with project tree
+        run: |
+          # Define the identifier comment
+          IDENTIFIER="<!-- PROJECT_TREE_START -->"
+          END_IDENTIFIER="<!-- PROJECT_TREE_END -->"
+
+          # Remove old project tree section
+          sed -i.bak "/$IDENTIFIER/,/$END_IDENTIFIER/d" README.md
+
+          # Add new project tree section
+          echo "$IDENTIFIER" >> README.md
+          echo '<details close>' >> README.md
+          echo '<summary><h2 align="center">Project Tree Structure 📁</h2> </summary>' >> README.md
+          
+          echo '```' >> README.md
+          cat project_tree_structure.txt >> README.md
+
+          echo '</details>' >> README.md
+          echo '</details>' >> README.md
+          echo "$END_IDENTIFIER" >> README.md
 
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add project_tree_structure.txt
-          git commit -m "Update project tree structure" || echo "No changes to commit"
+          git add README.md project_tree_structure.txt
+          git commit -m "Update project tree structure in README" || echo "No changes to commit"
           git push
