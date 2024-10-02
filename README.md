@@ -20,7 +20,7 @@
 <!-- PROJECT_TREE_START -->
 <details close>
 <summary><h2 align="center">Project Tree Structure 📁</h2> </summary>
-```
+```plaintext
 .
 ├── Algorithms
 │   ├── 12_IntegerToRoman.cpp
@@ -1140,6 +1140,5 @@
     └── factorial.rs
 
 225 directories, 892 files
-</details>
-</details>
+```
 <!-- PROJECT_TREE_END -->
