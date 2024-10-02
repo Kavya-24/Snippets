@@ -43,7 +43,6 @@ jobs:
           
           echo '```' >> README.md
           cat project_tree_structure.txt >> README.md
-          echo '```' >> README.md
 
           echo '</details>' >> README.md
           echo '</details>' >> README.md
