@@ -37,7 +37,7 @@ jobs:
           echo '<details close>' >> README.md
           echo '<summary><h2 align="center">Project Tree Structure 📁</h2> </summary>' >> README.md
           
-          echo 'Snippets'
+          echo >> README.md
           echo '```plaintext' >> README.md
           cat project_tree_structure.txt >> README.md
           echo '```' >> README.md
