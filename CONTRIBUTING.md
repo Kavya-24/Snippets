@@ -12,17 +12,17 @@ This is an important step to mark your commits to your name and email.
 
 ### FORK A PROJECT -
 ***
-You can use github explore - https://github.com/explore to find a project that interests you and match your skills. Once you find your cool project to workon, you can make a copy of project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
+You can fork this (https://github.com/Kavya-24/Snippets) repository. On Upper right side of project page on Github, you can see -
 
 <p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
 
-Click on fork to create a copy of project to your account. This creates a separate copy for you to workon.
+Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
 
 ### FINDING A FEATURE OR BUG TO WORKON - 
 ***
-Open Source projects always have something to workon and improves with each new release. You can see the issues section to find something you can solve or report a bug. The project managers always welcome new contributors and can guide you to solve the problem. You can find issues in the right section of project page.
+You can add a snippet of any problem formatted with problem statement, any projects, gists or multi-file source code. 
+There is no restriction on the language chosen. You can also pick up something from Issues (https://github.com/Kavya-24/Snippets/issues) that are open
 
-<p align="center">  <img  src="https://i.imgur.com/czVjpS7.png">  </p>
 
 ### CLONE THE FORKED PROJECT -
 ***
