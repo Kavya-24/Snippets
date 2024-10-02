@@ -1141,7 +1141,6 @@ Snippets
 |      project_tree_structure.txt
 │   ├───rust
 |        factorial.rs
-```
 </details>
 </details>
 <!-- PROJECT_TREE_END -->
