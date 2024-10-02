@@ -1,3 +1,14 @@
+name: Generate Project Tree
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+  workflow_dispatch: # Allows manual triggering of the workflow
+
 jobs:
   generate_tree:
     runs-on: ubuntu-latest
