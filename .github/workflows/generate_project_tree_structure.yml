@@ -14,9 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Make script executable
-        run: chmod +x ./project_tree_directory_util.sh
-
       - name: Delete existing project_tree_structure.txt if it exists
         run: |
           if [ -f project_tree_structure.txt ]; then
@@ -25,7 +22,6 @@ jobs:
 
       - name: Generate project tree structure
         run: tree > project_tree_structure.txt
-
 
       - name: Update README with project tree
         run: |
