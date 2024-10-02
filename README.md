@@ -6,8 +6,8 @@
 
 
 <details close>
+<!-- PROJECT_TREE_START -->
 <summary><h2 align="center">Project Tree Structure 📁</h2> </summary>
-
 
 ```
 
@@ -804,6 +804,7 @@ Snippets
 
 ```
 
+<!-- PROJECT_TREE_END -->
 </details>
 
 </details>

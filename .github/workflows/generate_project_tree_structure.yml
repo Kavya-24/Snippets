@@ -1,0 +1,48 @@
+jobs:
+  generate_tree:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Make script executable
+        run: chmod +x ./project_tree_directory_util.sh
+
+      - name: Delete existing project_tree_structure.txt if it exists
+        run: |
+          if [ -f project_tree_structure.txt ]; then
+            rm project_tree_structure.txt
+          fi
+
+      - name: Generate project tree structure
+        run: ./project_tree_directory_util.sh > project_tree_structure.txt
+
+      - name: Update README with project tree
+        run: |
+          # Define the identifier comments
+          IDENTIFIER="<!-- PROJECT_TREE_START -->"
+          END_IDENTIFIER="<!-- PROJECT_TREE_END -->"
+
+          # Remove old project tree section
+          sed -i.bak "/$IDENTIFIER/,/$END_IDENTIFIER/d" README.md
+
+          # Add new project tree section back in the middle
+          awk -v identifier="$IDENTIFIER" -v end_identifier="$END_IDENTIFIER" '
+          {
+              print $0;
+              if ($0 ~ identifier) {
+                  print "<summary><h2 align=\"center\">Project Tree Structure 📁</h2> </summary>";
+                  print "```";
+                  system("cat project_tree_structure.txt");
+                  print "```";
+              }
+          }' README.md > temp.md && mv temp.md README.md
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md project_tree_structure.txt
+          git commit -m "Update project tree structure in README" || echo "No changes to commit"
+          git push
