@@ -33,15 +33,12 @@ jobs:
           sed -i.bak "/$IDENTIFIER/,/$END_IDENTIFIER/d" README.md
 
           # Add new project tree section
-          echo ''
           echo "$IDENTIFIER" >> README.md
           echo '<details close>' >> README.md
           echo '<summary><h2 align="center">Project Tree Structure 📁</h2> </summary>' >> README.md
-          
+          echo ''
           echo '```plaintext' >> README.md
-
           cat project_tree_structure.txt >> README.md
-
           echo '```' >> README.md
 
           echo "$END_IDENTIFIER" >> README.md

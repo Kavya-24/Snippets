@@ -15,10 +15,9 @@
  <img src="https://contrib.rocks/image?repo=Kavya-24/Snippets" />
 
 </p> 
+<hr>
 
-
-
-<hr><!-- PROJECT_TREE_START -->
+<!-- PROJECT_TREE_START -->
 <details close>
 <summary><h2 align="center">Project Tree Structure 📁</h2> </summary>
 ```
