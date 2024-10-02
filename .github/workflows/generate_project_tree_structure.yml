@@ -42,7 +42,7 @@ jobs:
           echo '<summary><h2 align="center">Project Tree Structure 📁</h2> </summary>' >> README.md
           
           echo '```' >> README.md
-          cat project_tree.txt >> README.md
+          cat project_tree_structure.txt >> README.md
           echo '```' >> README.md
 
           echo '</details>' >> README.md
