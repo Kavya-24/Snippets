@@ -1,0 +1,791 @@
+:root {
+  --primary-color: #009387;
+  --primary-dim-color: #e0f8f2;
+  --secondary-color: #ff6d2c;
+  --secondary-dim-color: #fdf3ea;
+
+  --text-c: #2e2f35;
+  --border-c: #2e2f35;
+  --white: white;
+  --white-dim: rgba(255, 255, 255, 0.607);
+
+  --border: #d1c7be;
+
+  --text-c-reg: #222222;
+  --text-c-dim: #58595d;
+
+  --ff-inter: "Inter", sans-serif;
+  --ff-grace: "Covered By Your Grace", cursive;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+}
+body {
+  max-width: 1760px;
+  margin: auto;
+  position: relative;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+}
+.button {
+  border: none;
+  border: 2px solid var(--border-c);
+  background: inherit;
+  font-weight: 500;
+  font-family: var(--ff-inter);
+  padding: 0.6rem 1.3rem;
+  border-radius: 7px;
+  box-shadow: 2px 2px 0 1px var(--border-c);
+  transition: 200ms;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 0 0 0 1px transparent;
+}
+.bg-orange {
+  background-color: var(--secondary-color);
+  color: var(--white);
+}
+.font-grace {
+  font-family: var(--ff-grace);
+  color: var(--primary-color);
+  font-weight: 400;
+}
+.heading {
+  font-size: 3rem;
+  font-family: var(--ff-inter);
+  font-weight: 600;
+  color: var(--text-c);
+  text-align: center;
+}
+.navbar {
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  max-width: 1760px;
+  background-color: var(--white);
+  z-index: 99;
+}
+.toggle-button {
+  display: none;
+}
+.navbar .logo {
+  width: 9rem;
+}
+.navbar .all_links {
+  gap: 2rem;
+}
+
+.navbar .all_links .links {
+  gap: 2rem;
+  list-style: none;
+}
+.navbar .all_links .links .link {
+  font-family: var(--ff-inter);
+  font-size: 0.9rem;
+  gap: 0.3rem;
+  justify-content: center;
+}
+.navbar .all_links .links .link i {
+  margin-top: 0.1rem;
+}
+
+.navbar .all_links .buttons {
+  gap: 1rem;
+  font-family: var(--ff-inter);
+}
+.hero {
+  background-color: var(--primary-dim-color);
+  padding-top: 7rem;
+  justify-content: space-between;
+  padding: 7rem 3rem;
+}
+.hero .info {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.8rem;
+  color: var(--text-c);
+}
+.hero .main-heading {
+  font-size: 4rem;
+  font-family: var(--ff-inter);
+  font-weight: bold;
+}
+.sub-heading {
+  font-family: var(--ff-inter);
+  line-height: 1.6rem;
+  color: var(--text-c-dim);
+}
+.hero .image {
+  width: 40vw;
+}
+.hero .foot {
+  gap: 2rem;
+}
+.hero .foot .stars-container {
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.hero .foot .stars-container .stars {
+  gap: 0.2rem;
+  color: #fdc639;
+}
+.hero .foot .stars-container .title {
+  font-family: var(--ff-inter);
+  font-size: 0.8rem;
+  color: var(--text-c);
+}
+.brands {
+  padding: 8rem 2rem;
+}
+.brands .brands-container {
+  margin-top: 3rem;
+  justify-content: space-evenly;
+}
+.brands .brands-container .brand {
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.brands .brands-container .brand .thumbnail {
+  width: 13rem;
+}
+
+.brands .brands-container .brand .logo {
+  height: 1rem;
+}
+.why-use {
+  background-color: var(--primary-dim-color);
+  padding: 4rem 0;
+}
+.why-use .infos {
+  justify-content: space-evenly;
+  margin: 4rem 0;
+}
+.why-use .infos .info {
+  flex-direction: column;
+  gap: 1rem;
+}
+.why-use .infos .info .sub-heading {
+  text-align: center;
+}
+.why-use .infos .info .bars {
+  gap: 1rem;
+  align-items: flex-end;
+}
+.why-use .infos .info .bars .bar {
+  flex-direction: column;
+}
+.why-use .infos .info .bars .bar1 {
+  padding-top: 9rem;
+}
+.why-use .infos .info .bars .heading {
+  font-size: 1.2rem;
+  color: inherit;
+}
+.why-use .infos .info .bars .title {
+  font-size: 0.8rem;
+}
+.testimonials {
+  padding: 6rem 3rem;
+  background-color: var(--secondary-dim-color);
+}
+
+.testimonials .all-testimonials {
+  flex-direction: column;
+}
+.testimonials .testimonial {
+  margin-top: 5rem;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+}
+.testimonials .testimonial:nth-child(3) {
+  float: right;
+}
+.testimonials .testimonial:nth-child(4) {
+  clear: both;
+}
+
+.testimonials .testimonial .heading {
+  text-align: left;
+  font-size: 2.3rem;
+}
+.testimonials .testimonial .card {
+  position: relative;
+  padding: 2rem;
+  margin-top: 1rem;
+  width: 30rem;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+}
+
+.testimonials .testimonial .card::before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 20px;
+  height: 60px;
+  width: 60px;
+  background-image: url("/images/testimonials/comma.svg");
+  background-size: 40px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-color: var(--secondary-dim-color);
+}
+.testimonials .testimonial .card .msg {
+  font-style: italic;
+}
+.testimonials .testimonial .card .info {
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-family: var(--ff-inter);
+  color: var(--border);
+}
+.testimonials .testimonial .card .info .logo {
+  height: 20px;
+}
+.details {
+  padding: 5rem 0;
+}
+.details .cards {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  width: fit-content;
+  margin: auto;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.details .cards .card:nth-child(1) {
+  background-color: #fdf3ea;
+}
+.details .cards .card:nth-child(2) {
+  background-color: #e0f8f2;
+}
+
+.details .cards .card:nth-child(3) {
+  background-color: #eeecff;
+}
+
+.details .cards .card:nth-child(4) {
+  background-color: #d9f2f7;
+}
+
+.details .cards .card:nth-child(5) {
+  background-color: #faeded;
+}
+
+.details .cards .card:nth-child(6) {
+  background-color: #f1f1f1;
+}
+.details .cards .card {
+  padding: 3rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+.details .cards .card img {
+  width: 18rem;
+}
+.details .cards .card .heading {
+  font-size: 2rem;
+}
+.results {
+  background-color: var(--primary-dim-color);
+  padding: 4rem 0;
+}
+.results .part {
+  margin: 2rem;
+}
+
+.results .part .head {
+  font-size: 2rem;
+  gap: 1rem;
+}
+.results .part .head .heading {
+  font-size: 2rem;
+}
+.results .part .head .font-grace {
+  font-size: 3.5rem;
+  width: 3rem;
+  font-family: var(--ff-grace);
+}
+.results .part .sub-heading {
+  margin-left: 4rem;
+  width: 20rem;
+}
+.opq {
+  opacity: 0.5;
+}
+.tweets {
+  padding: 5rem 0;
+  flex-direction: column;
+  gap: 3rem;
+}
+.tweets .all-tweets {
+  gap: 2rem;
+  padding: 3rem 2rem;
+  width: 100%;
+  align-items: flex-start;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.tweets .all-tweets .tweet {
+  width: 25rem;
+  min-width: 25rem;
+  padding: 1.5rem;
+  border: 2px solid var(--border-c);
+  border-radius: 10px;
+}
+.tweets .all-tweets .tweet .head {
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.tweets .all-tweets .tweet .head .user {
+  gap: 0.5rem;
+}
+.tweets .all-tweets .tweet .head .user .titles .name {
+  font-family: var(--ff-inter);
+  color: var(--text-c-reg);
+  font-weight: 500;
+}
+.tweets .all-tweets .tweet .head .user .titles .username {
+  font-size: 0.9rem;
+}
+.tweets .all-tweets .tweet .head .user img {
+  width: 3.4rem;
+}
+.tweets .all-tweets .tweet .head .link {
+  font-size: 1.5rem;
+  color: var(--text-c);
+}
+.tweets .button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+.campaigns {
+  padding: 2rem;
+  align-items: flex-start;
+  padding-top: 6rem;
+  justify-content: space-evenly;
+  background-color: var(--primary-dim-color);
+}
+.campaigns .info {
+  width: 30rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.campaigns .info .heading {
+  text-align: left;
+}
+.campaigns .all-data {
+  justify-content: space-between;
+  width: 100%;
+}
+.campaigns .all-data .heading {
+  font-size: 2rem;
+}
+.campaigns .all-data .sub-heading {
+  font-size: 0.9rem;
+}
+.campaigns .button {
+  text-transform: uppercase;
+  background-color: var(--white);
+  padding: 1rem 2rem;
+}
+.campaigns .logos {
+  justify-content: space-between;
+  width: 100%;
+}
+.campaigns .logos .logo {
+  height: 20px;
+  position: relative;
+  transition: 200ms;
+  opacity: 0.3;
+}
+.campaigns .logos .logo:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.campaigns .logos .logo:nth-child(1) {
+  opacity: 1;
+}
+.try {
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+.try .info {
+  flex-direction: column;
+  width: 30rem;
+  gap: 2.5rem;
+  align-items: flex-start;
+}
+.try .info .heading {
+  color: var(--white);
+  text-align: left;
+  font-size: 3.5rem;
+}
+
+.try .info .sub-heading {
+  color: var(--white);
+}
+.try .info .foot {
+  gap: 2rem;
+}
+.try .info .foot .button {
+  background-color: var(--white);
+  padding: 1rem 2rem;
+}
+.try .info .foot .stars-container {
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.try .info .foot .stars-container .stars {
+  gap: 0.2rem;
+  color: var(--white);
+}
+.try .info .foot .stars-container .title {
+  font-family: var(--ff-inter);
+  font-size: 0.8rem;
+  color: var(--white);
+}
+.try img {
+  width: 35rem;
+}
+.try .tip {
+  color: var(--white-dim);
+  font-family: var(--ff-inter);
+}
+.trades {
+  padding: 4rem 4rem;
+  background-color: var(--primary-dim-color);
+}
+.trades .all-trades {
+  margin-top: 2rem;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.trades .all-trades .trade {
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.trades .all-trades .trade img {
+  width: 24rem;
+}
+.trades .all-trades .trade .heading {
+  width: 24rem;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.footer {
+  padding: 4rem 3rem;
+}
+.footer .top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.2fr;
+  margin-bottom: 3rem;
+}
+.footer .top .main {
+  gap: 1rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer .top .main .sub-heading {
+  width: 20rem;
+  font-size: 0.9rem;
+}
+.footer .top .all-links {
+  gap: 1rem;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer .top .all-links .links {
+  list-style: none;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.footer .top .title {
+  font-family: var(--ff-inter);
+  color: var(--text-c);
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.footer .top .all-links .links a {
+  font-family: var(--ff-inter);
+  color: var(--text-c-dim);
+  font-size: 0.8rem;
+}
+.footer .top .mail-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+.footer .top .mail-container .mail {
+  gap: 1rem;
+}
+.footer .bottom {
+  justify-content: space-between;
+  border-top: 2px solid rgb(228, 228, 228);
+  padding-top: 3rem;
+}
+.footer .bottom .rights {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.footer .bottom .rights img {
+  width: 8rem;
+}
+.footer .bottom .rights .sub-heading {
+  font-size: 0.9rem;
+}
+.footer .bottom .buttons {
+  gap: 1rem;
+}
+@media screen and (max-width: 1155px) {
+  .details .cards {
+    grid-template-columns: 25rem 25rem;
+  }
+}
+@media screen and (max-width: 1033px) {
+  .campaigns {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 935px) {
+  .navbar .all_links {
+    gap: 1rem;
+  }
+  .navbar .all_links .links {
+    gap: 1rem;
+  }
+  .tweets .all-tweets {
+    /* display: none; */
+  }
+  .try {
+    padding: 3rem 0;
+    gap: 4rem;
+    flex-direction: column;
+  }
+  .trades .all-trades {
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 840px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .toggle-button {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  .toggle-button-close {
+    position: absolute;
+    top: 19px;
+    right: 27px;
+    z-index: 9999;
+  }
+  .navbar-wrapper {
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.491);
+    transition: 200ms;
+    opacity: 0;
+  }
+  .navbar .all_links {
+    position: absolute;
+    transform: translate(100%);
+    padding: 3rem;
+    padding-top: 10rem;
+    align-items: flex-start;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    gap: 4rem;
+    width: 80vw;
+    background-color: var(--primary-dim-color);
+    transition: 200ms;
+  }
+
+  .navbar .all_links .links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+  }
+  .navbar .all_links .links .link {
+    font-size: 1.2rem;
+  }
+  .navbar .all_links .buttons {
+    flex-wrap: wrap;
+  }
+  .brands .brands-container {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .details .cards {
+    grid-template-columns: 40vw 40vw;
+  }
+  .details .cards .card {
+    padding: 2.5rem;
+  }
+  .details .cards .card img {
+    width: 30vw;
+  }
+  .details .cards .card .heading {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 800px) {
+  .footer .top {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .why-use .infos {
+    flex-direction: column;
+
+    gap: 3rem;
+  }
+  .testimonials .testimonial:nth-child(3) {
+    float: none;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+  .hero {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .hero .image {
+    width: 90vw;
+  }
+  .campaigns .image {
+    width: 90vw;
+  }
+  .try img {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .testimonials {
+    padding: 1rem;
+  }
+  .testimonials .testimonial .card {
+    width: 90vw;
+  }
+  .testimonials .testimonial .heading {
+    font-size: 1.5rem;
+  }
+  .heading {
+    font-size: 7vw;
+  }
+  .details .cards .card .heading {
+    font-size: 1.3rem;
+  }
+  .results .part .head .heading {
+    font-size: 1.3rem;
+  }
+  .campaigns {
+    padding: 4rem 0;
+  }
+  .campaigns .info {
+    width: 80vw;
+  }
+  .campaigns .info .heading {
+    font-size: 1.5rem;
+  }
+  .campaigns .all-data .heading {
+    font-size: 1.3rem;
+  }
+  .details .cards {
+    grid-template-columns: 80vw;
+  }
+  .try .info {
+    width: 90vw;
+  }
+}
+@media screen and (max-width: 440px) {
+  .hero .main-heading {
+    font-size: 2rem;
+  }
+  .sub-heading {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  .results .part .sub-heading {
+    width: auto;
+  }
+  .trades .all-trades .trade img {
+    width: 80vw;
+  }
+  .trades .all-trades .trade .heading {
+    font-size: 1.3rem;
+    width: 80vw;
+  }
+  .footer .bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .footer .bottom .rights {
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer .top .main .sub-heading {
+    width: auto;
+  }
+  .footer {
+    padding: 4rem 2rem;
+  }
+  .try .info .heading {
+    font-size: 2rem;
+  }
+}
