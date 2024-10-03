@@ -1,6 +1,6 @@
-// FIND THE NUMBER OF THE DIVISIOR
+//FIND THE NUMBER OF THE DIVISIOR
 
-// Time complexity is sqrt(n)
+//Time complexity is sqrt(n)
 #include <iostream>
 using namespace std;
 int main()

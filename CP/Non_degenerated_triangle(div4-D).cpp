@@ -17,7 +17,7 @@ Output:
 For each test case, output the number of distinct non-degenerate right triangles that can be formed from choosing three points.
 
 Constraints:
-- The sum of all n over all test cases does not exceed 2⋅10^5.
+             The sum of all n over all test cases does not exceed 2⋅10^5.
 */
 
 // THE SOLUTION:

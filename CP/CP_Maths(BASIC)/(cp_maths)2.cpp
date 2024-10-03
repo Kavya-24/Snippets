@@ -1,6 +1,6 @@
-// GCD-GREATEST COMMON DIVISIOR
+//  GCD-GREATEST COMMON DIVISIOR
 
-// FOR LCM = A*B/GCD(A,B)
+//  FOR LCM = A*B/GCD(A,B)
 #include <iostream>
 using namespace std;
 int gcd(int a, int b)

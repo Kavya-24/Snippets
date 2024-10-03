@@ -1,4 +1,4 @@
-// exponent and power a^b
+// Exponent and power a^b
 
 #include <iostream>
 using namespace std;

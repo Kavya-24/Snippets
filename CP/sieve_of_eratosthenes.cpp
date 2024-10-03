@@ -1,6 +1,6 @@
 // SIEVE OF ERATOSTHENES
 
-// for efficient prime number generation in O(nlog(logn)).
+// For efficient prime number generation in O(nlog(logn)).
 
 #include <bits/stdc++.h>
 #include <vector>

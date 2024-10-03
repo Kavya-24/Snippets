@@ -1,4 +1,4 @@
-// a simple implementation of the Tower of Hanoi problem in C
+// A Simple Implementation Of The Tower Of Hanoi Problem In C
 
 #include <stdio.h>
 
