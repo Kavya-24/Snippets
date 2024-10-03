@@ -1,7 +1,15 @@
+// In this code script we have done "sorting of linked list using mergesort"
+
 #include<iostream>
 using namespace std;
 
-class node {
+/*
+    We created a class named as node 
+    In which put data and its next
+    and made a constructor.
+*/
+
+class node {                     
     public:
     int data;
     node* next;
@@ -110,7 +118,7 @@ int main() {
     node* head = NULL;
     int choice;
     int data, n;
-
+                                                                        // used switch case to ask user what to do
     do {
         cout << "\nMenu:\n";
         cout << "1. Insert elements into linked list\n";
