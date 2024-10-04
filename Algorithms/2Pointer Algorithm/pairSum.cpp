@@ -18,13 +18,13 @@ int main()
     int start=0,end=n-1;
     while(start<end)
     {
-        if(arr[start]+arr[end]>x)
-            end-=1;
+        int target=arr[target]+arr[end];
+        if(target>x)
+            end--;
         else
-        if(arr[start]+arr[end]<x)
-            start+=1;
+        if(target<x)
+            start++;
         else
-        if(arr[start] + arr[end] == x)
         {
             cout<<start<<" "<<end;
             return 1;
