@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: ADLaM Display
+- Font Author: Copyright (c) 2022 by Microsoft. All rights reserved.
+- Font Source: https://fonts.gstatic.com/s/adlamdisplay/v1/KFOhCnGXkPOLlhx6jD8_b1ZECsHYkYBPY3o.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
