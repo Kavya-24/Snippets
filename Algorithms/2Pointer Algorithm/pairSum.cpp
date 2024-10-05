@@ -18,7 +18,7 @@ int main()
     int start=0,end=n-1;
     while(start<end)
     {
-        int target=arr[target]+arr[end];
+        int target=arr[start]+arr[end];
         if(target>x)
             end--;
         else
