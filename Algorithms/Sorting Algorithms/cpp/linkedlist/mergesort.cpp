@@ -1,4 +1,4 @@
-// In this code script we have done "sorting of linked list using mergesort"
+// In this code script we have done "sorting of linked list using mergesort" this is the important concept of the Data Strcture and Algorithm
 #include<iostream>
 using namespace std;
 
