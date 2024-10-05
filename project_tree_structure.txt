@@ -613,6 +613,7 @@
 │   ├── Kadane’s_Algorithm.c
 │   ├── Kruskal's_Algorithm.c
 │   ├── Linear_Search.c
+│   ├── LinlList.c
 │   ├── Matrix_Multiplication.c
 │   ├── Merge_Sort.c
 │   ├── Number_Triangle.c
@@ -1122,4 +1123,4 @@
 └── rust
     └── factorial.rs
 
-227 directories, 896 files
+227 directories, 897 files
