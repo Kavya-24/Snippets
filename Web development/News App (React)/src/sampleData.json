@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 35,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Jennifer Schonberger",
+        "title": "Fed expected to dial back 2024 rate calls after digesting new inflation data - Yahoo Finance",
+        "description": "Federal Reserve officials are expected Wednesday to dial back their estimates of interest rate cuts in 2024 after digesting a fresh inflation reading.",
+        "url": "https://finance.yahoo.com/news/fed-expected-to-dial-back-2024-rate-calls-after-digesting-new-inflation-data-090034448.html",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/My8nWu06ckxdlEDwipTPQg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-06/34cb9b80-273a-11ef-b663-d2d55f97ebe0",
+        "publishedAt": "2024-06-12T09:00:34Z",
+        "content": "Investors are bracing for Federal Reserve officials this afternoon to dial back estimates of interest rate cuts in 2024.\r\nBefore policymakers go public with those predictions, they get a fresh inflat… [+2296 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "John Fritze, Devan Cole",
+        "title": "How the Supreme Court could help Hunter Biden appeal his conviction - CNN",
+        "description": "Hunter Biden’s historic conviction on three felony gun charges will add significant weight to a blockbuster Second Amendment appeal to be decided in coming days by the Supreme Court.",
+        "url": "https://www.cnn.com/2024/06/12/politics/supreme-court-second-amendment-hunter-biden-rahimi-appeal/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/00887097-f76f-45d3-b3ba-55292357f28f.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2024-06-12T09:00:00Z",
+        "content": "Hunter Bidens historic conviction on three felony gun charges will add significant weight to a blockbuster Second Amendment appeal to be decided in coming days by the Supreme Court.\r\nThough the case … [+5280 chars]"
+      },
+      {
+        "source": {
+          "id": "politico",
+          "name": "Politico"
+        },
+        "author": "POLITICO",
+        "title": "Voters have real doubts about Kamala Harris as potential president, poll shows - POLITICO",
+        "description": null,
+        "url": "https://www.politico.com/news/2024/06/12/kamala-harris-favorability-poll-00162093",
+        "urlToImage": null,
+        "publishedAt": "2024-06-12T09:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "axios",
+          "name": "Axios"
+        },
+        "author": "Axios",
+        "title": "Elon Musk drops breach of contract lawsuit against OpenAI, Sam Altman - Axios",
+        "description": null,
+        "url": "https://www.axios.com/2024/06/11/elon-musk-lawsuit-openai-sam-altman",
+        "urlToImage": null,
+        "publishedAt": "2024-06-12T08:29:01Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "[Removed]"
+        },
+        "author": null,
+        "title": "[Removed]",
+        "description": "[Removed]",
+        "url": "https://removed.com",
+        "urlToImage": null,
+        "publishedAt": "1970-01-01T00:00:00Z",
+        "content": "[Removed]"
+      },
+      {
+        "source": {
+          "id": "reuters",
+          "name": "Reuters"
+        },
+        "author": "Reuters.com",
+        "title": "'Immense' scale of Gaza killings amount to crime against humanity, UN inquiry says - Reuters.com",
+        "description": null,
+        "url": "https://www.reuters.com/world/middle-east/immense-scale-gaza-killings-amount-crime-against-humanity-un-inquiry-says-2024-06-12/",
+        "urlToImage": null,
+        "publishedAt": "2024-06-12T07:02:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BBC News"
+        },
+        "author": null,
+        "title": "Project 2025: The Trump presidency wish list, explained - BBC.com",
+        "description": "An influential think tank wants the Federal Reserve and Department of Education to be abolished, among other ideas.",
+        "url": "https://www.bbc.com/news/articles/c977njnvq2do",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/315a/live/bdfe3f80-2847-11ef-80aa-699d54c46324.jpg",
+        "publishedAt": "2024-06-12T05:34:44Z",
+        "content": "By Mike Wendling, BBC News\r\nPresident Joe Biden's Democrats are mobilising against a possible governing agenda for Donald Trump if he is elected this November.\r\nThe blueprint, called Project 2025 and… [+5296 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NPR"
+        },
+        "author": "NPR Washington Desk",
+        "title": "Sam Brown wins Nevada's GOP Senate Primary to challenge Democrat Jacky Rosen - NPR",
+        "description": "Republican Sam Brown will face incumbent Democratic Sen. Jacky Rosen, who also won her primary Tuesday night, in a race that could help decide which party controls the U.S. Senate.",
+        "url": "https://www.npr.org/2024/06/12/g-s1-3999/sam-brown-win-nevada-gop-senate-primary",
+        "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5845x3288+0+305/resize/1400/quality/100/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F27%2F93%2F776b6c2c4df8b06621a53d4c90db%2Fnevada-primary-ap.jpg",
+        "publishedAt": "2024-06-12T05:28:44Z",
+        "content": "Retired Army Capt. Sam Brown has beat out a crowded field of GOP primary candidates to win his partys nomination for Nevadas U.S. Senate race on Tuesday, according to a race call by The Associated Pr… [+1027 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BBC News"
+        },
+        "author": null,
+        "title": "Joey Chestnut: hot dog champ blocked from Nathan's contest over vegan sponsor - BBC.com",
+        "description": "Joey Chestnut told he cannot join famed Nathan's contest on 4 July unless he drops sponsorship by vegan brand.",
+        "url": "https://www.bbc.com/news/articles/cj7793exd15o",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7920/live/2f632860-2835-11ef-bae3-375699f6439a.jpg",
+        "publishedAt": "2024-06-12T03:38:30Z",
+        "content": "Competitive eating star Joey \"Jaws\" Chestnut has been told he cannot join America's premiere hot dog contest after striking a deal with a vegan brand. \r\nHis removal from next month's Nathan's Hot Dog… [+2243 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Kevin Dolak",
+        "title": "Celine Dion Reveals She Took Near-Lethal Levels of Valium While Battling Stiff-Person Syndrome - Hollywood Reporter",
+        "description": "The superstar singer tells NBC News in an exclusive interview that before her diagnosis, the muscle spasms she endured were so severe she began taking life-threatening amounts of prescription drugs.",
+        "url": "http://www.hollywoodreporter.com/news/general-news/celine-dion-nbc-interview-stiff-person-syndrome-1235920516/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2024/06/CelineDionGettyImages-1159875948.jpg?w=1024",
+        "publishedAt": "2024-06-12T03:32:29Z",
+        "content": "A year after Celine Dion canceled her tour as she adjusted to living with stiff-person syndrome, the superstar vocalist has now opened up in a primetime interview with NBC News to discuss the fear sh… [+4331 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Benzinga"
+        },
+        "author": "Benzinga Neuro",
+        "title": "Apple's AI-Powered Growth To Trigger 10% Revenue Surge By 2025, Predicts Gene Munster: 'This Is Just The Start Of Apple's Next Growth Chapter' - Apple (NASDAQ:AAPL) - Benzinga",
+        "description": "Apple is poised for a significant growth spurt, driven by its artificial intelligence capabilities, according to Gene Munster, a prominent tech analyst.",
+        "url": "https://www.benzinga.com/markets/equities/24/06/39284068/apples-ai-powered-growth-to-trigger-10-revenue-surge-by-2025-predicts-gene-munster-this-is-just-",
+        "urlToImage": "https://cdn.benzinga.com/files/images/story/2024/06/11/Apple-logo.jpeg?width=1200&height=800&fit=crop",
+        "publishedAt": "2024-06-12T03:32:11Z",
+        "content": "Apple IncAAPL is poised for a significant growth spurt, driven by its artificial intelligence capabilities, according to Gene Munster, a prominent tech analyst.\r\nWhat Happened: Munster, the Managing … [+2370 chars]"
+      },
+      {
+        "source": {
+          "id": "reuters",
+          "name": "Reuters"
+        },
+        "author": "Hyunsu Yim",
+        "title": "Jin, oldest member of K-pop's BTS, finishes army service in South Korea - Reuters.com",
+        "description": "Jin, the oldest member of K-pop phenomenon BTS, was discharged from South Korea's army on Wednesday after 18 months of duty, the first member of the group to wrap up the mandatory national service that put their music careers on hold.",
+        "url": "https://www.reuters.com/lifestyle/jin-oldest-member-k-pops-bts-finishes-army-service-south-korea-2024-06-12/",
+        "urlToImage": "https://www.reuters.com/resizer/v2/P4QI7KF4DNNTTCSBTM6ZBP4WDM.jpg?auth=4dc3a9fe54bfcb77475797439164eddfc12944d6e404f98bed0ee8747de89d9c&height=1005&width=1920&quality=80&smart=true",
+        "publishedAt": "2024-06-12T03:02:16Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BBC.com",
+        "title": "Hamas seeks 'complete halt' to war in Gaza proposal response - BBC.com",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiLmh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy9hcnRpY2xlcy9jdjIyNWw4bDdqem_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-06-12T02:34:43Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BBC.com",
+        "title": "UN 'shocked' at Israeli hostage rescue's impact on Gaza civilians - BBC.com",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiLmh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy9hcnRpY2xlcy9ja2RkenZsOXgwMG_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2024-06-12T01:28:28Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BBC News"
+        },
+        "author": null,
+        "title": "French right in uproar over leader Ciotti's call for far-right alliance - BBC.com",
+        "description": "Republicans leader Ciotti angers colleagues after he calls for an electoral pact with National Rally.",
+        "url": "https://www.bbc.com/news/articles/cydd97g1g5po",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/85e7/live/23f74160-280c-11ef-80aa-699d54c46324.jpg",
+        "publishedAt": "2024-06-12T01:05:29Z",
+        "content": "The leader of France's right-wing Republicans party, Eric Ciotti, has sparked an outcry after he backed an alliance with the far-right National Rally in snap elections announced by President Emmanuel… [+4696 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "NBCSports.com"
+        },
+        "author": "NBC Sports",
+        "title": "Kyrie Irving told Luka Doncic 'I got to play better for him… it's my fault' - Yahoo Sports",
+        "description": "A Dallas turnaround in the NBA Finals starts with a more aggressive Irving getting buckets.",
+        "url": "https://www.nbcsports.com/nba/news/kyrie-irving-told-luka-doncic-i-got-to-play-better-for-him-its-my-fault",
+        "urlToImage": "https://s.yimg.com/ny/api/res/1.2/wZ827sCqOzPjTyljezYpUQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/nbcsports.com/190db50a0e29c9875b5735b5c8caca54",
+        "publishedAt": "2024-06-12T00:41:00Z",
+        "content": "The Dallas Mavericks are not down 0-2 in the NBA Finals because of Kyrie Irving.\r\nHowever, any hopes the Mavericks have of a comeback against the Celtics start with Irving playing a lot more like the… [+2177 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BBC News"
+        },
+        "author": null,
+        "title": "Spread of tiger mosquito behind rise of dengue fever in Europe - BBC.com",
+        "description": "Concerning rise in dengue fever cases as climate change pushes mosquitoes further north, warn experts.",
+        "url": "https://www.bbc.com/news/articles/ce5520m6x2go",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a801/live/0e0de9e0-27ed-11ef-8748-d589b4996777.jpg",
+        "publishedAt": "2024-06-12T00:27:25Z",
+        "content": "By Philippa Roxby, Health reporter\r\nMosquitoes can spread disease from person to person, and from place to place\r\nAn invasive species of mosquito has been found in 13 countries in the EU, including F… [+3909 chars]"
+      },
+      {
+        "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+        },
+        "author": "Natalie B. Compton",
+        "title": "Apple iOS 18 promises iMessage via satellite, a safety boost for hikers - The Washington Post",
+        "description": "With the fall’s iOS 18 update, hikers can map trails and stay in touch over iMessage and SMS.",
+        "url": "https://www.washingtonpost.com/travel/2024/06/11/apple-ios-18-imessage-satellite-camping-hiking/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MEZCEG4Q2JCDZDTDROO2EFE7PQ.jpg&w=1440",
+        "publishedAt": "2024-06-12T00:24:00Z",
+        "content": "Apple revealed big changes at its annual Worldwide Developers Conference on Monday, from ways to hide your secret apps to new AI tools. But a few of the announcementswere geared toward outdoor enthus… [+2648 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Rolling Stone"
+        },
+        "author": "Charisma Madarang",
+        "title": "Françoise Hardy, French Singer and International Sixties Icon, Dead at 80 - Rolling Stone",
+        "description": "Françoise Hardy, the French icon and singer known for evoking romantic existentialism in her music, has died at the age of 80.",
+        "url": "http://www.rollingstone.com/music/music-news/francoise-hardy-dead-obituary-1235038345/",
+        "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2024/06/FrancoiseHardy.jpeg?w=1600&h=900&crop=1",
+        "publishedAt": "2024-06-12T00:09:33Z",
+        "content": "Françoise Hardy, the French icon and singer known for evoking romantic existentialism in her music, has died at the age of 80.\r\nHer son, Thomas Dutronc, confirmed her death in a Facebook post. Sharin… [+1664 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Pia Singh",
+        "title": "Stock futures are little changed ahead of Fed's rate decision, consumer inflation data: Live updates - CNBC",
+        "description": "The S&P 500 and the Nasdaq Composite rose to records on Tuesday, boosted by Apple.",
+        "url": "https://www.cnbc.com/2024/06/11/stock-market-today-live-updates.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107416635-1716220528528-107416635-17159624062024-05-17t152050z_194642493_rc2ds7aajvst_rtrmadp_0_usa-stocks.jpeg?v=1716220645&w=1920&h=1080",
+        "publishedAt": "2024-06-11T23:43:00Z",
+        "content": "Stock futures oscillated near the flatline Tuesday night as investors awaited the Federal Reserve's interest rate decision and May's consumer inflation data.\r\nFutures tied to the Dow Jones Industrial… [+1792 chars]"
+      }
+    ]
+  }
