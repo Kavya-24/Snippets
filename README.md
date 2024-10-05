@@ -604,6 +604,7 @@
 │   │       ├── astar.py
 │   │       ├── heuristics.py
 │   │       └── main.py
+│   ├── N-Queens.py
 │   └── Uninformed Search
 │       ├── bfs.py
 │       ├── dfs.py
@@ -1147,6 +1148,6 @@
 └── rust
     └── factorial.rs
 
-227 directories, 897 files
+227 directories, 898 files
 ```
 <!-- PROJECT_TREE_END -->
