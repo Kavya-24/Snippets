@@ -1008,6 +1008,22 @@
 │   │   ├── script.js
 │   │   ├── style.css
 │   │   └── wesbite.md
+│   ├── crome-dino-game
+│   │   ├── README.md
+│   │   ├── cactus.js
+│   │   ├── dino.js
+│   │   ├── ground.js
+│   │   ├── imgs
+│   │   │   ├── cactus.png
+│   │   │   ├── dino-lose.png
+│   │   │   ├── dino-run-0.png
+│   │   │   ├── dino-run-1.png
+│   │   │   ├── dino-stationary.png
+│   │   │   └── ground.png
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   ├── styles.css
+│   │   └── updateCustomProperty.js
 │   ├── notes_app
 │   │   ├── app.js
 │   │   ├── index.html
@@ -1149,6 +1165,6 @@
 └── rust
     └── factorial.rs
 
-227 directories, 899 files
+229 directories, 913 files
 ```
 <!-- PROJECT_TREE_END -->
