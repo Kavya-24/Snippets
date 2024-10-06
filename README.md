@@ -785,6 +785,7 @@
 │   │       └── preorderTraversal.cpp
 │   └── quicksort
 ├── Java
+│   ├── BinarySearch.java
 │   ├── CountPairsWithGivenSum.java
 │   ├── GuessTheNumber.java
 │   ├── PasswordGenerator.java
@@ -1218,6 +1219,6 @@
 └── rust
     └── factorial.rs
 
-238 directories, 957 files
+238 directories, 958 files
 ```
 <!-- PROJECT_TREE_END -->
