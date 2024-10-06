@@ -52,6 +52,7 @@
 │   │   ├── Hash Table Quadratic Probing.txt
 │   │   ├── HashTableLinearProbingC++.txt
 │   │   └── TwoSum.c++
+│   ├── Heuristic_Search.cpp
 │   ├── Kadane Algorithm.txt
 │   ├── KadaneAlgorithm.java
 │   ├── Knapsack-Greedy.java
@@ -1140,6 +1141,6 @@
 └── rust
     └── factorial.rs
 
-225 directories, 892 files
+225 directories, 893 files
 ```
 <!-- PROJECT_TREE_END -->
