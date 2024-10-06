@@ -9,27 +9,37 @@
 	</head>
 
 	<body>
-		<h1> BMI Calculator</h1>
-		<div id="container" class="container">
-
-			<label for='cm'>Height in cm</label>
-			<input type="text" name='cm' id="cm">
-
-			<label for='kg'>Weight in kg</label>
-			<input type="text" name='kg' id="kg">
-
-			<input type="submit" id="submit" class='submit' value="Calculate">
-
-			<div id="result" class='result'></div>
-
-			<div id="info" class='info'>
-				<h2>BMI Standards:</h2>
-				Under Weight = Less than 18.6<br />
-				Normal Range = 18.6 and 24.9<br />
-				Overweight = Greater than 24.9<br />
+		<div class="container">
+			<h1>Enhanced BMI Calculator</h1>
+			<div class="input-group">
+				<label for="unit">Unit System:</label>
+				<select id="unit">
+					<option value="metric">Metric (cm, kg)</option>
+					<option value="imperial">Imperial (in, lbs)</option>
+				</select>
 			</div>
-
+			<div class="input-group">
+				<label for="height">Height:</label>
+				<input type="number" id="height" step="0.1" required>
+				<span id="height-unit">cm</span>
+			</div>
+			<div class="input-group">
+				<label for="weight">Weight:</label>
+				<input type="number" id="weight" step="0.1" required>
+				<span id="weight-unit">kg</span>
+			</div>
+			<button id="calculate">Calculate BMI</button>
+			<button id="reset">Reset</button>
+			<div id="result" class="result"></div>
+			<div class="info">
+				<h2>BMI Categories:</h2>
+				<p>Underweight: Less than 18.5</p>
+				<p>Normal weight: 18.5 to 24.9</p>
+				<p>Overweight: 25 to 29.9</p>
+				<p>Obesity: 30 or greater</p>
+			</div>
 		</div>
+		
 		<script src="app.js"> </script>
 
 	</body>
