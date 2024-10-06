@@ -9,6 +9,11 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(73, 72, 72);
+  text-align: center;
 }
 
 .world {
