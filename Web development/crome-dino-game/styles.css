@@ -21,6 +21,8 @@ body {
   font-size: 3vmin;
   right: 1vmin;
   top: 1vmin;
+  margin-right: 10%;
+  font-size: 40px;
 }
 
 .start-screen {
