@@ -1,6 +1,6 @@
 package java;
 
-public class BinarySearch {git
+public class BinarySearch {
 
     //  Pass in the array, the value to search for,
     //  the index of the start of the array, and the index of the end of the array
