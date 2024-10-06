@@ -939,6 +939,12 @@
 ├── UI Models
 │   └── Overview.txt
 ├── Web development
+│   ├── 2048 Game
+│   │   ├── README.md
+│   │   ├── app.js
+│   │   ├── image.png
+│   │   ├── index.html
+│   │   └── style.css
 │   ├── BMI Calculator
 │   │   ├── app.js
 │   │   ├── index.html
@@ -995,6 +1001,41 @@
 │   │   └── style.css
 │   ├── JS
 │   │   └── asyncawait.js
+│   ├── NewsApp
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   ├── about.txt
+│   │   │   ├── android-chrome-192x192.png
+│   │   │   ├── android-chrome-512x512.png
+│   │   │   ├── apple-touch-icon.png
+│   │   │   ├── favicon-16x16.png
+│   │   │   ├── favicon-32x32.png
+│   │   │   ├── favicon.ico
+│   │   │   ├── index.html
+│   │   │   ├── manifest.json
+│   │   │   ├── robots.txt
+│   │   │   └── site.webmanifest
+│   │   └── src
+│   │       ├── App.css
+│   │       ├── App.js
+│   │       ├── App.test.js
+│   │       ├── assets
+│   │       │   ├── dumy.png
+│   │       │   └── loader.gif
+│   │       ├── components
+│   │       │   ├── Navbar.js
+│   │       │   ├── Spinner.js
+│   │       │   └── news
+│   │       │       ├── News.js
+│   │       │       └── NewsItem.js
+│   │       ├── index.css
+│   │       ├── index.js
+│   │       ├── logo.svg
+│   │       ├── reportWebVitals.js
+│   │       ├── sample.json
+│   │       ├── sampleData.json
+│   │       └── setupTests.js
 │   ├── Overview.txt
 │   ├── PopUp Design
 │   │   ├── index.html
@@ -1174,6 +1215,6 @@
 └── rust
     └── factorial.rs
 
-231 directories, 920 files
+238 directories, 954 files
 ```
 <!-- PROJECT_TREE_END -->
