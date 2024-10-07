@@ -28,7 +28,7 @@ class Quicksort {
 
     }
 
-    // swapt the pivot element with the greater element specified by i
+    // swap the pivot element with the greater element specified by i
     int temp = array[i + 1];
     array[i + 1] = array[high];
     array[high] = temp;
