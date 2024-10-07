@@ -692,7 +692,8 @@
 │   └── sieve_of_eratosthenes.cpp
 ├── Competitive programming template
 │   ├── template.cpp
-│   └── template.kt
+│   ├── template.kt
+│   └── template.py
 ├── Cryptography Algorithms
 │   ├── AutoKeyCipher.java
 │   ├── DiffieHellman.java
@@ -1218,6 +1219,6 @@
 └── rust
     └── factorial.rs
 
-238 directories, 957 files
+238 directories, 958 files
 ```
 <!-- PROJECT_TREE_END -->
