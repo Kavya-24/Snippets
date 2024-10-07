@@ -691,7 +691,6 @@
 │   ├── powx-n_LeetCode.cpp
 │   └── sieve_of_eratosthenes.cpp
 ├── Competitive programming template
-│   ├── Greedy_Algorithm.cpp
 │   ├── template.cpp
 │   └── template.kt
 ├── Cryptography Algorithms
@@ -1219,6 +1218,6 @@
 └── rust
     └── factorial.rs
 
-238 directories, 958 files
+238 directories, 957 files
 ```
 <!-- PROJECT_TREE_END -->
