@@ -52,6 +52,7 @@
 │   │   ├── Hash Table Quadratic Probing.txt
 │   │   ├── HashTableLinearProbingC++.txt
 │   │   └── TwoSum.c++
+│   ├── Heuristic_Search.cpp
 │   ├── Kadane Algorithm.txt
 │   ├── KadaneAlgorithm.java
 │   ├── Knapsack-Greedy.java
