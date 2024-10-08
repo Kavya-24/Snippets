@@ -72,6 +72,7 @@ function handleStart() {
 
 function handleLose() {
   setDinoLose()
+  startScreenElem.innerHTML="Game over <br> Press any Key to Start Again";
   setTimeout(() => {
     document.addEventListener("keydown", handleStart, { once: true })
     startScreenElem.classList.remove("hide")
