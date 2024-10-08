@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyJournalApp</string>
+
+    <string-array name="mood_array">
+        <item>😊 Happy</item>
+        <item>😐 Neutral</item>
+        <item>😢 Sad</item>
+        <item>😠 Angry</item>
+        <item>😴 Tired</item>
+    </string-array>
+</resources>
