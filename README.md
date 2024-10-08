@@ -86,6 +86,8 @@
 │   │   │   ├── countsort.cpp
 │   │   │   ├── daa_topological sorting.cpp
 │   │   │   ├── heapSort.cpp
+│   │   │   ├── linkedlist
+│   │   │   │   └── mergesort.cpp
 │   │   │   ├── mergeSort.cpp
 │   │   │   ├── quickSort.cpp
 │   │   │   ├── radixsort.cpp
@@ -599,6 +601,7 @@
 │   ├── rvItemAnimator.kt
 │   └── shareBitmapImage.kt
 ├── Artificial Intelligence
+│   ├── Create Iterative Deepening Search.py
 │   ├── Informed Search
 │   │   └── A Star
 │   │       ├── astar.py
@@ -652,6 +655,7 @@
 │   ├── Simple_Interest_Calculator.c
 │   ├── Styled_name_print.c
 │   ├── Timsort.c
+│   ├── Tower_Of_Hanoi.c
 │   ├── Two_complex_num_addition.c
 │   ├── armstrong.c
 │   ├── binrec.c
@@ -669,20 +673,27 @@
 ├── CONTRIBUTING.md
 ├── CP
 │   ├── 4Sum.cpp
+│   ├── CP_Maths(BASIC)
+│   │   ├── (cp_maths)1.cpp
+│   │   ├── (cp_maths)2.cpp
+│   │   └── (cp_maths)3.cpp
 │   ├── Common_elements.cpp.txt
 │   ├── Count_pairs_with_given_sum.cpp
 │   ├── Factorials_of_large_numbers.cpp.txt
+│   ├── HamiltonianCycle.cpp
 │   ├── Kadane’s Algorithm
 │   ├── Majority Element II.cpp
+│   ├── Non_degenerated_triangle(div4-D).cpp
 │   ├── TopologicalSort
 │   │   ├── UsingDFS.cpp
 │   │   └── UsingKahnAlgo.cpp
 │   ├── combination_sum.cpp
-│   └── powx-n_LeetCode.cpp
+│   ├── powx-n_LeetCode.cpp
+│   └── sieve_of_eratosthenes.cpp
 ├── Competitive programming template
-│   ├── Greedy_Algorithm.cpp
 │   ├── template.cpp
-│   └── template.kt
+│   ├── template.kt
+│   └── template.py
 ├── Cryptography Algorithms
 │   ├── AutoKeyCipher.java
 │   ├── DiffieHellman.java
@@ -774,6 +785,7 @@
 │   │       └── preorderTraversal.cpp
 │   └── quicksort
 ├── Java
+│   ├── BinarySearch.java
 │   ├── CountPairsWithGivenSum.java
 │   ├── GuessTheNumber.java
 │   ├── PasswordGenerator.java
@@ -925,11 +937,18 @@
 │   ├── array_rotation.py
 │   ├── defineaword.py
 │   ├── fibonacci.py
-│   └── invisible cloak
+│   ├── invisible cloak
+│   └── multilevel queue scheduling.py
 ├── README.md
 ├── UI Models
 │   └── Overview.txt
 ├── Web development
+│   ├── 2048 Game
+│   │   ├── README.md
+│   │   ├── app.js
+│   │   ├── image.png
+│   │   ├── index.html
+│   │   └── style.css
 │   ├── BMI Calculator
 │   │   ├── app.js
 │   │   ├── index.html
@@ -986,6 +1005,41 @@
 │   │   └── style.css
 │   ├── JS
 │   │   └── asyncawait.js
+│   ├── NewsApp
+│   │   ├── README.md
+│   │   ├── package.json
+│   │   ├── public
+│   │   │   ├── about.txt
+│   │   │   ├── android-chrome-192x192.png
+│   │   │   ├── android-chrome-512x512.png
+│   │   │   ├── apple-touch-icon.png
+│   │   │   ├── favicon-16x16.png
+│   │   │   ├── favicon-32x32.png
+│   │   │   ├── favicon.ico
+│   │   │   ├── index.html
+│   │   │   ├── manifest.json
+│   │   │   ├── robots.txt
+│   │   │   └── site.webmanifest
+│   │   └── src
+│   │       ├── App.css
+│   │       ├── App.js
+│   │       ├── App.test.js
+│   │       ├── assets
+│   │       │   ├── dumy.png
+│   │       │   └── loader.gif
+│   │       ├── components
+│   │       │   ├── Navbar.js
+│   │       │   ├── Spinner.js
+│   │       │   └── news
+│   │       │       ├── News.js
+│   │       │       └── NewsItem.js
+│   │       ├── index.css
+│   │       ├── index.js
+│   │       ├── logo.svg
+│   │       ├── reportWebVitals.js
+│   │       ├── sample.json
+│   │       ├── sampleData.json
+│   │       └── setupTests.js
 │   ├── Overview.txt
 │   ├── PopUp Design
 │   │   ├── index.html
@@ -1165,6 +1219,6 @@
 └── rust
     └── factorial.rs
 
-229 directories, 913 files
+238 directories, 958 files
 ```
 <!-- PROJECT_TREE_END -->
