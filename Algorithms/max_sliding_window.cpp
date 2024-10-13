@@ -1,50 +1,39 @@
-// Program for max sliding window
 #include <bits/stdc++.h>
 using namespace std;
-// Comparator to sort the vector of pair with increasing first and decreasing second values
-bool comparator(pair<int, int> a, pair<int, int> b)
-{
-    if (a.first == b.first)
-    {
-        return a.second > b.second;
-    }
-    return a.first < b.first;
-}
-// k-> size of the window
-vector<int> maxSlidingWindow(vector<int> &nums, int k)
-{
-    // Create a priority queue with comparator
-    priority_queue<pair<int, int>, vector<pair<int, int>>, function<bool(pair<int, int>, pair<int, int>)>> pq(comparator);
 
-    int n = nums.size();
+vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+    deque<int> dq;
     vector<int> windowMax;
-    // Insert first K elements in priority queue
-    for (int i = 0; i < k; i++)
-    {
-        pq.push({nums[i], i});
-    }
-    windowMax.push_back(pq.top().first);
-    // Now slide over remaining elements
-    for (int i = k; i < n; i++)
-    {
+    int n = nums.size();
 
-        pq.push({nums[i], i});
-        // Loop until priority queue top element index comes undes the range
-        while (pq.top().second <= i - k)
-        {
-            pq.pop();
+    for (int i = 0; i < n; ++i) {
+        // Remove elements not within the sliding window
+        if (!dq.empty() && dq.front() == i - k) {
+            dq.pop_front();
         }
-        windowMax.push_back(pq.top().first);
+
+        // Remove elements smaller than the current element from the back of the deque
+        while (!dq.empty() && nums[dq.back()] < nums[i]) {
+            dq.pop_back();
+        }
+
+        // Add the current element index to the deque
+        dq.push_back(i);
+
+        // The front of the deque is the largest element in the current window
+        if (i >= k - 1) {
+            windowMax.push_back(nums[dq.front()]);
+        }
     }
+
     return windowMax;
 }
 
-int main()
-{
+int main() {
     vector<int> arr = {1, 1, 5, 2, 1, 0, 1, 3, 2, 1, 2, 1};
-    int k=4;
-    vector<int> max_arr =  maxSlidingWindow(arr,k);
-    for(auto e : max_arr){
-        cout<<e<<" ";
+    int k = 4;
+    vector<int> max_arr = maxSlidingWindow(arr, k);
+    for (auto e : max_arr) {
+        cout << e << " ";
     }
 }
