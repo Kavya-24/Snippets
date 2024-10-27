@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-shadow: 0 0 0 1px red; */
+}
+:root {
+  --primary-color: #665dcd;
+  --secondary-color: #d2ab67;
+  --background: #141619;
+  --text-c: white;
+  --sub-text-c: #e5e5e5;
+  --btn-grad: linear-gradient(150deg, #665dcd, #5fa4e6, #d2ab67);
+  --ff: "Inter", sans-serif;
+  --font-reg: 400;
+  --font-mid: 500;
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-image: var(--btn-grad);
+  border-radius: 100vw;
+}
+
+body {
+  background-color: var(--background);
+  font-family: var(--ff);
+  color: var(--text-c);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.line-link {
+  position: relative;
+}
+.line-link i {
+  margin-left: 0.2rem;
+}
+.line-link::before {
+  content: "";
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  border-radius: 100vw;
+  background-image: var(--btn-grad);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 200ms;
+}
+.line-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.sub-heading {
+  line-height: 1.5rem;
+  color: var(--sub-text-c);
+}
+.button {
+  background-image: var(--btn-grad);
+  padding: 1rem 1.5rem;
+  border: none;
+  color: var(--text-c);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.heading {
+  font-weight: var(--font-mid);
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 370px) {
+  body {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,107 @@
+.partners {
+  justify-content: space-between;
+  margin-top: 10rem;
+  padding: 0 5rem;
+}
+.partners .heading {
+  margin-top: 18rem;
+}
+.partners .partner-blob-img {
+  position: absolute;
+  left: -30%;
+}
+.partners .heading {
+  width: 23rem;
+  font-size: 2.5rem;
+}
+.partners .partner-columns {
+  gap: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.partners .partner-columns::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+  background-image: linear-gradient(var(--background), transparent);
+  z-index: 99;
+}
+.partners .partner-columns::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+  background-image: linear-gradient(transparent, var(--background));
+  z-index: 99;
+}
+
+.partners .partner-columns .column {
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+.partners .partner-columns .column1 {
+  transform: translateY(-100px);
+}
+.partners .partner-columns .column2 {
+  transform: translateY(100px);
+}
+
+.partners .partner-columns .column .partner {
+  border: 1px solid #4155726e;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  aspect-ratio: 1;
+  width: 10rem;
+  background-image: linear-gradient(#4155724a -100%, transparent 60%);
+}
+.partners .partner-columns .column .partner img {
+  margin-bottom: 1rem;
+  width: 4rem;
+}
+.partners .partner-columns .column .partner .name {
+  color: #999999;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 920px) {
+  .partners {
+    flex-direction: column;
+    gap: 10rem;
+    margin-top: 5rem;
+    text-align: center;
+    position: relative;
+  }
+  .partners .partner-blob-img {
+    width: calc(10rem + 30vw);
+    left: 0;
+    top: 5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .partners .heading {
+    width: auto;
+    padding: 0;
+  }
+  .partners {
+    gap: 1rem;
+  }
+  .partners .partner-columns {
+    gap: 1rem;
+  }
+  .partners .partner-columns .column .partner {
+    width: 7rem;
+  }
+  .partners .partner-columns .column .partner img {
+    width: 2.5rem;
+  }
+  .partners .partner-columns .column .partner .name {
+    font-size: 0.7rem;
+  }
+}

@@ -1,0 +1,32 @@
+.join-team {
+  justify-content: space-between;
+  margin-bottom: 15rem;
+  padding: 3rem;
+}
+.join-team img {
+  position: absolute;
+  left: 2rem;
+  z-index: -9;
+}
+.join-team .sub-heading {
+  width: 30rem;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.join-team .sub-heading .line-link {
+  margin-top: 1rem;
+}
+@media screen and (max-width: 630px) {
+  .join-team {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+  .join-team .sub-heading {
+    width: auto;
+  }
+  .join-team img {
+    width: 90vw;
+  }
+}

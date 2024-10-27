@@ -1,0 +1,121 @@
+.about {
+  justify-content: center;
+  gap: 3rem;
+  flex-direction: column;
+  margin-bottom: 10rem;
+}
+.about .sub-heading {
+  width: 30rem;
+  text-align: center;
+}
+
+.about .grid-parts {
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-rows: 150px 150px;
+  position: relative;
+}
+.about .grid-parts .part {
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.about .grid-parts .part .heading {
+  font-weight: var(--font-mid);
+  font-size: 1.5rem;
+}
+.about .grid-parts .part .sub-heading {
+  width: auto;
+}
+.about .grid-parts .part:nth-child(2) {
+  background-image: var(--btn-grad);
+}
+.about .grid-parts .part:nth-child(1)::before,
+.about .grid-parts .part:nth-child(3)::before,
+.about .grid-parts .part:nth-child(4)::before,
+.about .grid-parts .part:nth-child(5)::before {
+  background-image: var(--btn-grad);
+  content: "";
+  position: absolute;
+  border-radius: 100vw;
+}
+
+.about .grid-parts .part:nth-child(1)::before {
+  bottom: 50%;
+  left: 0;
+  height: 2px;
+  width: 100%;
+}
+.about .grid-parts .part:nth-child(3)::before {
+  bottom: 0;
+  left: 230px;
+  height: 100%;
+  width: 2px;
+}
+.about .grid-parts .part:nth-child(4)::before {
+  bottom: 0;
+  left: 460px;
+  height: 100%;
+  width: 2px;
+}
+.about .grid-parts .part:nth-child(5)::before {
+  bottom: 0;
+  right: 230px;
+  height: 100%;
+  width: 2px;
+}
+@media screen and (max-width: 960px) {
+  .about .grid-parts {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-template-rows: 150px 150px 150px 150px;
+    position: relative;
+  }
+
+  .about .grid-parts .part:nth-child(1)::before {
+    bottom: 50%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .about .grid-parts .part:nth-child(3)::before {
+    bottom: 25%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .about .grid-parts .part:nth-child(4)::before {
+    top: 25%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+  }
+  .about .grid-parts .part:nth-child(5)::before {
+    bottom: 0;
+    right: 50%;
+    height: 100%;
+    width: 2px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .about .heading {
+    text-align: center;
+  }
+  .about .sub-heading {
+    width: auto;
+    padding: 0 3rem;
+  }
+  .about .grid-parts {
+    grid-template-columns: 40vw 40vw;
+  }
+  .about .grid-parts .part .heading {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .about .grid-parts .part .sub-heading {
+    font-size: 0.8rem;
+    padding: 0;
+    line-height: 1.3rem;
+  }
+}

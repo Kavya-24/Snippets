@@ -1,0 +1,19 @@
+.contact {
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.contact .contact-blob {
+  position: absolute;
+  width: 100%;
+}
+.contact .sub-heading {
+  width: 38rem;
+  text-align: center;
+}
+@media screen and (max-width: 680px) {
+  .contact .sub-heading {
+    width: auto;
+    padding: 0 3rem;
+  }
+}

@@ -1,0 +1,29 @@
+.hero {
+  justify-content: center;
+  flex-direction: column;
+  min-height: 110vh;
+  gap: 2rem;
+}
+.hero .main-heading {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: var(--font-mid);
+  line-height: 7rem;
+}
+.hero .sub-heading {
+  width: 30rem;
+  text-align: center;
+}
+@media screen and (max-width: 525px) {
+  .hero .main-heading {
+    font-size: calc(1.5rem + 5vw);
+    text-align: center;
+    font-weight: var(--font-mid);
+    line-height: 5rem;
+  }
+  .hero .sub-heading {
+    width: auto;
+    padding: 10vw;
+    text-align: center;
+  }
+}

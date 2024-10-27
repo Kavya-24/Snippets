@@ -1,0 +1,94 @@
+.company {
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin: 13rem 0 10rem 0;
+}
+.company .sub-heading {
+  width: 30rem;
+  text-align: center;
+}
+.company .arrows {
+  justify-content: center;
+  gap: 1.5rem;
+}
+.company .desc {
+  width: 30rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+.company .arrows .arrow {
+  justify-content: center;
+  width: 3rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.company .arrows .arrow:nth-child(2) {
+  rotate: 180deg;
+}
+.company .name {
+  font-weight: var(--font-mid);
+}
+.company .foot .position {
+  margin-right: 1rem;
+}
+.company .foot .company-logo {
+  border-left: 2px solid rgba(128, 128, 128, 0.443);
+  padding-left: 1rem;
+}
+.pagination {
+  background-color: gray;
+  height: 10px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  position: relative;
+}
+
+.pagination::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  top: 0;
+  height: 10px;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  background-image: var(--btn-grad);
+}
+.pagination::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 0;
+  height: 10px;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  background-color: gray;
+}
+
+@media screen and (max-width: 560px) {
+  .company .heading {
+    text-align: center;
+  }
+  .company .sub-heading {
+    width: auto;
+    padding: 0 10vw;
+  }
+  .company .desc {
+    width: auto;
+    font-size: 1rem;
+    padding: 0 10vw;
+  }
+  .company .foot {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .company .foot .position {
+    margin-right: 0;
+  }
+  .company .foot .company-logo {
+    border: none;
+    padding-left: 0;
+  }
+}
