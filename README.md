@@ -1219,6 +1219,6 @@
 └── rust
     └── factorial.rs
 
-238 directories, 958 files
+237 directories, 958 files
 ```
 <!-- PROJECT_TREE_END -->
